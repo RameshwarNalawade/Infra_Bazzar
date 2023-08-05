@@ -1,0 +1,35 @@
+
+
+TITLE              :  Infra Bazaar
+
+PLATFORM      : J2EE(Spring Boot MVC),Spring security,MySQL And Thymleaf
+
+DESCRIPTION   :
+The idea behind this project is to provide online platform for customer as well as seller to sell the 
+infrastructure material.Using this website small scale business will grow and our ultimate goal is provide
+best solution dynamic website for easy selling and buying. This system is developed in J2EE by using Spring Boot 
+and Restfull Webservices. For user interface Thymleaf is used and MySQL is used as a Database. 
+
+DESCRIPTION
+	infra-bazaar is a ecommerce infrastructure material selling site. Spring boot + Spring security + Thymeleaf is used to build the application.
+
+
+---------------INSERT QUARY IN USER TABLE-------------
+
+
+use myproject;
+INSERT INTO `user` VALUES 
+(1,1,'sudhir@gmail.com','Sudhir','Jogdand','$2a$12$tlHF6M0VIcBYtkOdn5pcsubcqT0DfeYT2yZhxOLltKhGfHaS3FbI.',current_timestamp(),'ADMIN');
+INSERT INTO `user` VALUES 
+(2,1,'akshay@gmail.com','Akshay','Divekar','$2a$12$76cXQSGKImqSYQprTcxVEeUPmz/7WdzUqxyIKvXrZUJ/t/KAHQjaC',current_timestamp(),'USER');
+INSERT INTO `user` VALUES 
+(3,1,'rameshwar@gmail.com','Rameshwar','Nalawade','$2a$12$KLZ7mmYXc/.3jKKsl4.yk.5mbOKEXdo9.WT/BNCh7kob6/X21G1.K',current_timestamp(),'MANAGER');
+
+
+Admin Sudhir    id:sudhir@gmail.com        Password:sudhir123
+User Akshay     id:akshay@gmail.com        password:akshay123
+Manager rameshwar id:rameshwar@gmail.com   Password:rameshwar123
+
+Encrypted password:foqwaoaekaqrlyzg
+Email:infrabazaarcdac2022@gmail.com
+pass - infra@123
